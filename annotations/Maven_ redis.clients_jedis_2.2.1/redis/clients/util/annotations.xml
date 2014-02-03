@@ -1,0 +1,101 @@
+<root>
+    <item name='redis.clients.util.JedisByteHashMap java.lang.Object put(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.JedisByteHashMap byte[] put(byte[], byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.RedisInputStream buf'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.Hashing md5Holder'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.MurmurHash int hash(java.nio.ByteBuffer, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.RedisInputStream java.lang.String readLine()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.Sharded Sharded(java.util.List&lt;S&gt;, redis.clients.util.Hashing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.Sharded Sharded(java.util.List&lt;S&gt;, java.util.regex.Pattern) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.RedisOutputStream buf'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.SafeEncoder byte[][] encodeMany(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.SafeEncoder byte[] encode(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.RedisOutputStream void writeUtf8CrLf(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.SafeEncoder java.lang.String encode(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.Hashing MD5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.JedisByteHashMap java.util.Set&lt;java.util.Map.Entry&lt;byte[],byte[]&gt;&gt; entrySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.Slowlog java.util.List&lt;redis.clients.util.Slowlog&gt; from(java.util.List&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.JedisByteHashMap void putAll(java.util.Map&lt;? extends byte[],? extends byte[]&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.Hashing long hash(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='redis.clients.util.Hashing MURMUR_HASH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.ShardInfo T createResource()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='redis.clients.util.Slowlog java.util.List&lt;java.lang.String&gt; getArgs()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.SafeEncoder byte[][] encodeMany(java.lang.String...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.Sharded Sharded(java.util.List&lt;S&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.MurmurHash long hash(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.JedisByteHashMap java.util.Set&lt;byte[]&gt; keySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.RedisOutputStream void write(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.Slowlog java.util.List&lt;redis.clients.util.Slowlog&gt; from(java.util.List&lt;java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.RedisOutputStream int utf8Length(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.MurmurHash long hash64A(java.nio.ByteBuffer, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.RedisOutputStream void writeAsciiCrLf(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='redis.clients.util.Sharded Sharded(java.util.List&lt;S&gt;, redis.clients.util.Hashing, java.util.regex.Pattern) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

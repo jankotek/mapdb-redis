@@ -1,0 +1,2603 @@
+<root>
+    <item name='org.mapdb.AsyncWriteEngine AsyncWriteEngine(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.AsyncWriteEngine AsyncWriteEngine(org.mapdb.Engine, int, java.util.concurrent.Executor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.AsyncWriteEngine TOMBSTONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.AsyncWriteEngine action'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.AsyncWriteEngine activeThreadsCount'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.AsyncWriteEngine boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.AsyncWriteEngine commitLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.AsyncWriteEngine newRecids'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.AsyncWriteEngine newRecidsLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.AsyncWriteEngine threadCounter'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.AsyncWriteEngine void preallocate(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.AsyncWriteEngine writeCache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.AsyncWriteEngine.WriterRunnable WriterRunnable(org.mapdb.AsyncWriteEngine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.AsyncWriteEngine.WriterRunnable engineRef'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Atomic.Var Var(org.mapdb.Engine, org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Atomic.Var Var(org.mapdb.Engine, org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Atomic.Var Var(org.mapdb.Engine, org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer BASIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer TUPLE2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer TUPLE3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer TUPLE4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer ZERO_OR_POSITIVE_INT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer ZERO_OR_POSITIVE_LONG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer byte[] leadingValuePackRead(java.io.DataInput, byte[], int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer java.lang.Object[] deserialize(java.io.DataInput, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer void leadingValuePackWrite(java.io.DataOutput, byte[], byte[], int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer.BasicKeySerializer BasicKeySerializer(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer.BasicKeySerializer BasicKeySerializer(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer.BasicKeySerializer BasicKeySerializer(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer.BasicKeySerializer java.lang.Object[] deserialize(java.io.DataInput, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer.Tuple2KeySerializer java.lang.Object[] deserialize(java.io.DataInput, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer.Tuple2KeySerializer java.util.Comparator&lt;org.mapdb.Fun.Tuple2&lt;A,B&gt;&gt; getComparator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer.Tuple3KeySerializer java.lang.Object[] deserialize(java.io.DataInput, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer.Tuple3KeySerializer java.util.Comparator&lt;org.mapdb.Fun.Tuple3&lt;A,B,C&gt;&gt; getComparator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer.Tuple4KeySerializer java.lang.Object[] deserialize(java.io.DataInput, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeKeySerializer.Tuple4KeySerializer java.util.Comparator&lt;org.mapdb.Fun.Tuple4&lt;A,B,C,D&gt;&gt; getComparator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap BTreeMap(org.mapdb.Engine, long, int, boolean, long, org.mapdb.BTreeKeySerializer&lt;K&gt;, org.mapdb.Serializer&lt;V&gt;, java.util.Comparator&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap BTreeMap(org.mapdb.Engine, long, int, boolean, long, org.mapdb.BTreeKeySerializer&lt;K&gt;, org.mapdb.Serializer&lt;V&gt;, java.util.Comparator&lt;K&gt;) 5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap BTreeMap(org.mapdb.Engine, long, int, boolean, long, org.mapdb.BTreeKeySerializer&lt;K&gt;, org.mapdb.Serializer&lt;V&gt;, java.util.Comparator&lt;K&gt;) 7'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap COMPARABLE_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap K ceilingKey(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap K floorKey(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap K higherKey(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap K lowerKey(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap V get(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap V put(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap V put(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap V put2(K, V, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap V put2(K, V, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap V putIfAbsent(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap V putIfAbsent(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap V replace(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap V replace(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap boolean containsKey(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap boolean containsValue(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap boolean remove(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap boolean replace(K, V, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap boolean replace(K, V, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap boolean replace(K, V, V) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap comparator'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap engine'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap int findChildren(java.lang.Object, java.lang.Object[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.lang.Object[] arrayPut(java.lang.Object[], int, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.lang.Object[] arrayPut(java.lang.Object[], int, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.Collection&lt;V&gt; values()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.Comparator&lt;? super K&gt; comparator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.Map.Entry&lt;K,V&gt; ceilingEntry(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.Map.Entry&lt;K,V&gt; findSmaller(K, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.Map.Entry&lt;K,V&gt; floorEntry(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.Map.Entry&lt;K,V&gt; higherEntry(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.Map.Entry&lt;K,V&gt; lowerEntry(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.Map.Entry&lt;K,V&gt; makeEntry(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.NavigableMap descendingMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.NavigableMap headMap(java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.NavigableMap headMap(java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.NavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.NavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.NavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.NavigableMap tailMap(java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.NavigableMap tailMap(java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.NavigableMap&lt;K,V&gt; snapshot()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.NavigableSet&lt;K&gt; keySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.NavigableSet&lt;K&gt; navigableKeySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.Set keySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; entrySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.SortedMap headMap(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.SortedMap headMap(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.SortedMap subMap(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.SortedMap subMap(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.SortedMap subMap(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.SortedMap tailMap(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.SortedMap tailMap(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.SortedMap&lt;java.lang.String,java.lang.Object&gt; preinitCatalog(org.mapdb.DB) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; descendingMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; headMap(K)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; headMap(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; headMap(K, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; headMap(K, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; subMap(K, K)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; subMap(K, K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; subMap(K, K) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; subMap(K, boolean, K, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; subMap(K, boolean, K, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; subMap(K, boolean, K, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; tailMap(K)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; tailMap(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; tailMap(K, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; tailMap(K, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap keySerializer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap leftEdges'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap long createRootRef(org.mapdb.Engine, org.mapdb.BTreeKeySerializer, org.mapdb.Serializer, java.util.Comparator) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap long nextDir(org.mapdb.BTreeMap.DirNode, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap long[] arrayLongPut(long[], int, long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap long[] arrayLongPut(long[], int, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap modListenersLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap nodeLocks'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap nodeSerializer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap void assertNoLocks(org.mapdb.LongConcurrentHashMap&lt;java.lang.Thread&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap void lock(org.mapdb.LongConcurrentHashMap&lt;java.lang.Thread&gt;, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap void unlock(org.mapdb.LongConcurrentHashMap&lt;java.lang.Thread&gt;, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap void unlockAll(org.mapdb.LongConcurrentHashMap&lt;java.lang.Thread&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap K ceilingKey(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap K floorKey(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap K higherKey(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap K lowerKey(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap V get(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap V put(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap V put(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap V putIfAbsent(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap V putIfAbsent(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap V replace(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap V replace(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap boolean containsKey(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap boolean containsValue(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap boolean replace(K, V, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap boolean replace(K, V, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap boolean replace(K, V, V) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.Comparator&lt;? super K&gt; comparator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.Map.Entry&lt;K,V&gt; ceilingEntry(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.Map.Entry&lt;K,V&gt; floorEntry(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.Map.Entry&lt;K,V&gt; higherEntry(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.Map.Entry&lt;K,V&gt; lowerEntry(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.NavigableMap headMap(java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.NavigableMap headMap(java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.NavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.NavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.NavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.NavigableMap tailMap(java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.NavigableMap tailMap(java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.NavigableSet&lt;K&gt; descendingKeySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.NavigableSet&lt;K&gt; keySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.NavigableSet&lt;K&gt; navigableKeySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.Set keySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; entrySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.SortedMap headMap(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.SortedMap headMap(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.SortedMap subMap(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.SortedMap subMap(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.SortedMap subMap(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.SortedMap tailMap(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.SortedMap tailMap(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap headMap(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap headMap(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap headMap(java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap headMap(java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap tailMap(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap tailMap(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap tailMap(java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap java.util.concurrent.ConcurrentNavigableMap tailMap(java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; headMap(K)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; headMap(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; headMap(K, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; headMap(K, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; subMap(K, K)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; subMap(K, K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; subMap(K, K) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; subMap(K, boolean, K, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; subMap(K, boolean, K, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; subMap(K, boolean, K, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; tailMap(K)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; tailMap(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; tailMap(K, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.DescendingMap org.mapdb.BTreeMap.DescendingMap&lt;K,V&gt; tailMap(K, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.NodeSerializer java.lang.Object deserialize(java.io.DataInput, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.NodeSerializer java.lang.Object deserialize(java.io.DataInput, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.NodeSerializer org.mapdb.BTreeMap.BNode deserialize(java.io.DataInput, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.NodeSerializer org.mapdb.BTreeMap.BNode deserialize(java.io.DataInput, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.NodeSerializer void serialize(java.io.DataOutput, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.NodeSerializer void serialize(java.io.DataOutput, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.NodeSerializer void serialize(java.io.DataOutput, org.mapdb.BTreeMap.BNode) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.NodeSerializer void serialize(java.io.DataOutput, org.mapdb.BTreeMap.BNode) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap K ceilingKey(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap K floorKey(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap K higherKey(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap K lowerKey(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap V get(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap V put(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap V put(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap V putIfAbsent(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap V putIfAbsent(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap V replace(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap V replace(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap boolean containsKey(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap boolean containsValue(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap boolean replace(K, V, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap boolean replace(K, V, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap boolean replace(K, V, V) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.Comparator&lt;? super K&gt; comparator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.Map.Entry&lt;K,V&gt; ceilingEntry(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.Map.Entry&lt;K,V&gt; floorEntry(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.Map.Entry&lt;K,V&gt; higherEntry(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.Map.Entry&lt;K,V&gt; lowerEntry(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.NavigableMap descendingMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.NavigableMap headMap(java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.NavigableMap headMap(java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.NavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.NavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.NavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.NavigableMap tailMap(java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.NavigableMap tailMap(java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.NavigableSet&lt;K&gt; descendingKeySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.NavigableSet&lt;K&gt; keySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.NavigableSet&lt;K&gt; navigableKeySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.Set keySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; entrySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.SortedMap headMap(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.SortedMap headMap(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.SortedMap subMap(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.SortedMap subMap(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.SortedMap subMap(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.SortedMap tailMap(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.SortedMap tailMap(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap headMap(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap headMap(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap headMap(java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap headMap(java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object, boolean, java.lang.Object, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap tailMap(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap tailMap(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap tailMap(java.lang.Object, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap tailMap(java.lang.Object, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap java.util.concurrent.ConcurrentNavigableMap&lt;K,V&gt; descendingMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; headMap(K)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; headMap(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; headMap(K, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; headMap(K, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; subMap(K, K)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; subMap(K, K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; subMap(K, K) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; subMap(K, boolean, K, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; subMap(K, boolean, K, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; subMap(K, boolean, K, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; tailMap(K)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; tailMap(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; tailMap(K, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.BTreeMap.SubMap org.mapdb.BTreeMap.SubMap&lt;K,V&gt; tailMap(K, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void histogram(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.concurrent.ConcurrentMap&lt;C,java.lang.Long&gt;, org.mapdb.Fun.Function2&lt;C,K,V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void mapInverse(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Map&lt;V,K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void mapInverse(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Map&lt;V,K&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void mapInverse(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Set&lt;org.mapdb.Fun.Tuple2&lt;V,K&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void mapInverse(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Set&lt;org.mapdb.Fun.Tuple2&lt;V,K&gt;&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void secondaryKey(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Map&lt;K2,K&gt;, org.mapdb.Fun.Function2&lt;K2,K,V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void secondaryKey(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Map&lt;K2,K&gt;, org.mapdb.Fun.Function2&lt;K2,K,V&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void secondaryKey(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Set&lt;org.mapdb.Fun.Tuple2&lt;K2,K&gt;&gt;, org.mapdb.Fun.Function2&lt;K2,K,V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void secondaryKey(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Set&lt;org.mapdb.Fun.Tuple2&lt;K2,K&gt;&gt;, org.mapdb.Fun.Function2&lt;K2,K,V&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void secondaryKeys(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Set&lt;org.mapdb.Fun.Tuple2&lt;K2,K&gt;&gt;, org.mapdb.Fun.Function2&lt;K2[],K,V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void secondaryKeys(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Set&lt;org.mapdb.Fun.Tuple2&lt;K2,K&gt;&gt;, org.mapdb.Fun.Function2&lt;K2[],K,V&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void secondaryValue(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Map&lt;K,V2&gt;, org.mapdb.Fun.Function2&lt;V2,K,V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void secondaryValue(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Map&lt;K,V2&gt;, org.mapdb.Fun.Function2&lt;V2,K,V&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void secondaryValues(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Set&lt;org.mapdb.Fun.Tuple2&lt;K,V2&gt;&gt;, org.mapdb.Fun.Function2&lt;V2[],K,V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void secondaryValues(org.mapdb.Bind.MapWithModificationListener&lt;K,V&gt;, java.util.Set&lt;org.mapdb.Fun.Tuple2&lt;K,V2&gt;&gt;, org.mapdb.Fun.Function2&lt;V2[],K,V&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void size(org.mapdb.Bind.MapWithModificationListener, org.mapdb.Atomic.Long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Bind void size(org.mapdb.Bind.MapWithModificationListener, org.mapdb.Atomic.Long) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.CC DEFAULT_CACHE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Caches.HardRef HardRef(org.mapdb.Engine, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Caches.HardRef boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Caches.HashTable HashTable(org.mapdb.Engine, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Caches.HashTable boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Caches.HashTable locks'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Caches.LRU LRU(org.mapdb.Engine, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Caches.LRU LRU(org.mapdb.Engine, org.mapdb.LongMap&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Caches.LRU boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Caches.LRU locks'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Caches.WeakSoftRef WeakSoftRef(org.mapdb.Engine, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Caches.WeakSoftRef boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Caches.WeakSoftRef locks'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.CompressLZF int compress(byte[], int, byte[], int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.CompressLZF int compress(byte[], int, byte[], int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.CompressLZF void expand(java.io.DataInput, byte[], int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.CompressLZF void expand(java.nio.ByteBuffer, int, byte[], int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB DB(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB DB(org.mapdb.Engine, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB java.util.NavigableSet&lt;K&gt; createTreeSet(org.mapdb.DB.BTreeSetMaker)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB java.util.NavigableSet&lt;K&gt; createTreeSet(org.mapdb.DB.BTreeSetMaker) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB java.util.Set&lt;K&gt; createHashSet(org.mapdb.DB.HTreeSetMaker)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB java.util.Set&lt;K&gt; createHashSet(org.mapdb.DB.HTreeSetMaker) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB java.util.Set&lt;K&gt; getHashSet(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB java.util.concurrent.BlockingQueue&lt;E&gt; createCircularQueue(java.lang.String, org.mapdb.Serializer&lt;E&gt;, long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB java.util.concurrent.BlockingQueue&lt;E&gt; createQueue(java.lang.String, org.mapdb.Serializer&lt;E&gt;, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB java.util.concurrent.BlockingQueue&lt;E&gt; createStack(java.lang.String, org.mapdb.Serializer&lt;E&gt;, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.Atomic.Boolean createAtomicBoolean(java.lang.String, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.Atomic.Integer createAtomicInteger(java.lang.String, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.Atomic.Long createAtomicLong(java.lang.String, long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.Atomic.String createAtomicString(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.Atomic.String createAtomicString(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.Atomic.Var&lt;E&gt; createAtomicVar(java.lang.String, E, org.mapdb.Serializer&lt;E&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.BTreeMap&lt;K,V&gt; createTreeMap(org.mapdb.DB.BTreeMapMaker)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.BTreeMap&lt;K,V&gt; createTreeMap(org.mapdb.DB.BTreeMapMaker) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.DB snapshot()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.DB.BTreeMapMaker createTreeMap(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.DB.BTreeSetMaker createTreeSet(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.DB.HTreeMapMaker createHashMap(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.DB.HTreeSetMaker createHashSet(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.HTreeMap&lt;K,V&gt; createHashMap(org.mapdb.DB.HTreeMapMaker)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.HTreeMap&lt;K,V&gt; createHashMap(org.mapdb.DB.HTreeMapMaker) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB org.mapdb.HTreeMap&lt;K,V&gt; getHashMap(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB void checkType(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB void rename(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.BTreeMap&lt;K,V&gt; make()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.BTreeMap&lt;java.lang.Long,V&gt; makeLongMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.BTreeMap&lt;java.lang.String,V&gt; makeStringMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.DB.BTreeMapMaker comparator(java.util.Comparator)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.DB.BTreeMapMaker counterEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.DB.BTreeMapMaker keySerializer(org.mapdb.BTreeKeySerializer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.DB.BTreeMapMaker keySerializerWrap(org.mapdb.Serializer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.DB.BTreeMapMaker nodeSize(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.DB.BTreeMapMaker pumpIgnoreDuplicates()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.DB.BTreeMapMaker pumpPresort(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.DB.BTreeMapMaker pumpSource(java.util.Iterator&lt;K&gt;, org.mapdb.Fun.Function1&lt;V,K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.DB.BTreeMapMaker pumpSource(java.util.Iterator&lt;org.mapdb.Fun.Tuple2&lt;K,V&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.DB.BTreeMapMaker valueSerializer(org.mapdb.Serializer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeMapMaker org.mapdb.DB.BTreeMapMaker valuesOutsideNodesEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeSetMaker java.util.NavigableSet&lt;K&gt; make()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeSetMaker java.util.NavigableSet&lt;java.lang.Long&gt; makeLongSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeSetMaker java.util.NavigableSet&lt;java.lang.String&gt; makeStringSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeSetMaker org.mapdb.DB.BTreeSetMaker comparator(java.util.Comparator)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeSetMaker org.mapdb.DB.BTreeSetMaker counterEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeSetMaker org.mapdb.DB.BTreeSetMaker nodeSize(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeSetMaker org.mapdb.DB.BTreeSetMaker pumpIgnoreDuplicates()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeSetMaker org.mapdb.DB.BTreeSetMaker pumpPresort(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeSetMaker org.mapdb.DB.BTreeSetMaker pumpSource(java.util.Iterator&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.BTreeSetMaker org.mapdb.DB.BTreeSetMaker serializer(org.mapdb.BTreeKeySerializer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeMapMaker org.mapdb.DB.HTreeMapMaker counterEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeMapMaker org.mapdb.DB.HTreeMapMaker expireAfterAccess(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeMapMaker org.mapdb.DB.HTreeMapMaker expireAfterAccess(long, java.util.concurrent.TimeUnit)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeMapMaker org.mapdb.DB.HTreeMapMaker expireAfterAccess(long, java.util.concurrent.TimeUnit) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeMapMaker org.mapdb.DB.HTreeMapMaker expireAfterWrite(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeMapMaker org.mapdb.DB.HTreeMapMaker expireAfterWrite(long, java.util.concurrent.TimeUnit)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeMapMaker org.mapdb.DB.HTreeMapMaker expireAfterWrite(long, java.util.concurrent.TimeUnit) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeMapMaker org.mapdb.DB.HTreeMapMaker expireMaxSize(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeMapMaker org.mapdb.DB.HTreeMapMaker hasher(org.mapdb.Hasher)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeMapMaker org.mapdb.DB.HTreeMapMaker keySerializer(org.mapdb.Serializer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeMapMaker org.mapdb.DB.HTreeMapMaker valueCreator(org.mapdb.Fun.Function1)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeMapMaker org.mapdb.DB.HTreeMapMaker valueSerializer(org.mapdb.Serializer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeMapMaker org.mapdb.HTreeMap&lt;K,V&gt; make()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeSetMaker java.util.Set&lt;K&gt; make()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeSetMaker org.mapdb.DB.HTreeSetMaker counterEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeSetMaker org.mapdb.DB.HTreeSetMaker expireAfterAccess(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeSetMaker org.mapdb.DB.HTreeSetMaker expireAfterAccess(long, java.util.concurrent.TimeUnit)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeSetMaker org.mapdb.DB.HTreeSetMaker expireAfterAccess(long, java.util.concurrent.TimeUnit) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeSetMaker org.mapdb.DB.HTreeSetMaker expireAfterWrite(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeSetMaker org.mapdb.DB.HTreeSetMaker expireAfterWrite(long, java.util.concurrent.TimeUnit)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeSetMaker org.mapdb.DB.HTreeSetMaker expireAfterWrite(long, java.util.concurrent.TimeUnit) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeSetMaker org.mapdb.DB.HTreeSetMaker expireMaxSize(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeSetMaker org.mapdb.DB.HTreeSetMaker hasher(org.mapdb.Hasher)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.HTreeSetMaker org.mapdb.DB.HTreeSetMaker serializer(org.mapdb.Serializer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DB.IdentityWrapper boolean equals(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMaker(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT _newAppendFileDB(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT _newAppendFileDB(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT _newDirectMemoryDB()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT _newFileDB(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT _newFileDB(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT _newMemoryDB()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT asyncWriteEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT asyncWriteFlushDelay(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT cacheDisable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT cacheHardRefEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT cacheLRUEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT cacheSize(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT cacheSoftRefEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT cacheWeakRefEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT checksumEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT closeOnJvmShutdown()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT compressionEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT deleteFilesAfterClose()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT encryptionEnable(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT encryptionEnable(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT encryptionEnable(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT encryptionEnable(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT freeSpaceReclaimQ(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT fullChunkAllocationEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT getThis()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT mmapFileEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT mmapFileEnableIfSupported()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT mmapFileEnablePartial()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT readOnly()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT sizeLimit(double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT snapshotEnable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT strictDBGet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT syncOnCommitDisable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker DBMakerT transactionDisable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker TRUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker byte[] fromHexa(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker byte[] fromHexa(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker java.lang.String toHexa(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker java.lang.String toHexa(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.AsyncWriteEngine extendAsyncWriteEngine(org.mapdb.Engine)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.AsyncWriteEngine extendAsyncWriteEngine(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Caches.HardRef extendCacheHardRef(org.mapdb.Engine)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Caches.HardRef extendCacheHardRef(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Caches.HashTable extendCacheHashTable(org.mapdb.Engine)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Caches.HashTable extendCacheHashTable(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Caches.LRU extendCacheLRU(org.mapdb.Engine)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Caches.LRU extendCacheLRU(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Caches.WeakSoftRef extendCacheSoftRef(org.mapdb.Engine)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Caches.WeakSoftRef extendCacheSoftRef(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Caches.WeakSoftRef extendCacheWeakRef(org.mapdb.Engine)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Caches.WeakSoftRef extendCacheWeakRef(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.DB make()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.DBMaker newAppendFileDB(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.DBMaker newAppendFileDB(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.DBMaker newDirectMemoryDB()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.DBMaker newFileDB(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.DBMaker newFileDB(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.DBMaker newMemoryDB()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.DBMaker newTempFileDB()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Engine makeEngine()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Store extendStoreDirect(org.mapdb.Volume.Factory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Store extendStoreDirect(org.mapdb.Volume.Factory) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Store extendStoreWAL(org.mapdb.Volume.Factory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Store extendStoreWAL(org.mapdb.Volume.Factory) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.StoreAppend extendStoreAppend()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.TxEngine extendSnapshotEngine(org.mapdb.Engine)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.TxEngine extendSnapshotEngine(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.TxMaker makeTxMaker()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker org.mapdb.Volume.Factory extendStoreVolumeFactory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys asyncWrite'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys asyncWriteFlushDelay'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys cache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys cacheSize'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys cache_disable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys cache_hardRef'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys cache_hashTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys cache_lru'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys cache_softRef'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys cache_weakRef'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys checksum'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys closeOnJvmShutdown'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys compression'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys compression_lzf'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys deleteFilesAfterClose'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys encryption'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys encryptionKey'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys encryption_xtea'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys file'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys freeSpaceReclaimQ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys fullChunkAllocation'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys fullTx'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys readOnly'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys sizeLimit'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys snapshots'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys store'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys store_append'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys store_direct'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys store_heap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys store_wal'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys strictDBGet'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys syncOnCommitDisable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys transactionDisable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys volume'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys volume_heap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys volume_mmapf'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys volume_mmapfIfSupported'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys volume_mmapfPartial'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys volume_offheap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DBMaker.Keys volume_raf'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DataInput2 int unpackInt(java.io.DataInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DataInput2 java.lang.String readLine()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DataInput2 java.lang.String readUTF()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DataInput2 long unpackLong(java.io.DataInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DataInput2 void readFully(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DataOutput2 void packInt(java.io.DataOutput, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DataOutput2 void packLong(java.io.DataOutput, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DataOutput2 void write(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DataOutput2 void writeBytes(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DataOutput2 void writeChars(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.DataOutput2 void writeUTF(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EncryptionXTEA EncryptionXTEA(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EncryptionXTEA byte[] getHash(byte[], boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EncryptionXTEA byte[] getHash(byte[], boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Engine boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Engine void preallocate(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.EngineWrapper CLOSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EngineWrapper EngineWrapper(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EngineWrapper V checkClosed(V)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EngineWrapper V checkClosed(V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EngineWrapper boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.EngineWrapper org.mapdb.Engine getWrappedEngine()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EngineWrapper void preallocate(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.EngineWrapper.DebugEngine DebugEngine(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EngineWrapper.DebugEngine boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.EngineWrapper.DebugEngine void preallocate(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EngineWrapper.ImmutabilityCheckEngine ImmutabilityCheckEngine(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EngineWrapper.ImmutabilityCheckEngine boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.EngineWrapper.ImmutabilityCheckEngine.Item Item(org.mapdb.Serializer, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EngineWrapper.ImmutabilityCheckEngine.Item Item(org.mapdb.Serializer, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EngineWrapper.ReadOnlyEngine ReadOnlyEngine(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EngineWrapper.ReadOnlyEngine boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.EngineWrapper.ReadOnlyEngine void preallocate(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.EngineWrapper.SerializerCheckEngineWrapper SerializerCheckEngineWrapper(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EngineWrapper.SerializerCheckEngineWrapper boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.EngineWrapper.SynchronizedEngineWrapper SynchronizedEngineWrapper(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.EngineWrapper.SynchronizedEngineWrapper boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.EngineWrapper.SynchronizedEngineWrapper void preallocate(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Fun A HI()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun BYTE_ARRAY_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun CHAR_ARRAY_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun COMPARABLE_ARRAY_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun DOUBLE_ARRAY_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun HI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun INT_ARRAY_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun LONG_ARRAY_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun REVERSE_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun TUPLE2_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun TUPLE3_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun TUPLE4_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun java.lang.Iterable&lt;C&gt; filter(java.util.NavigableSet&lt;org.mapdb.Fun.Tuple3&lt;A,B,C&gt;&gt;, A, B)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun java.lang.Iterable&lt;D&gt; filter(java.util.NavigableSet&lt;org.mapdb.Fun.Tuple4&lt;A,B,C,D&gt;&gt;, A, B, C)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun java.lang.Iterable&lt;K1&gt; filter(java.util.NavigableSet&lt;org.mapdb.Fun.Tuple2&lt;K2,K1&gt;&gt;, K2)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun java.lang.Iterable&lt;K1&gt; filter(java.util.NavigableSet&lt;org.mapdb.Fun.Tuple2&lt;K2,K1&gt;&gt;, K2, boolean, K2, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun org.mapdb.Fun.Function1&lt;K,K&gt; extractNoTransform()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun org.mapdb.Fun.Function1&lt;K,org.mapdb.Fun.Tuple2&lt;K,V&gt;&gt; extractKey()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun org.mapdb.Fun.Function1&lt;V,org.mapdb.Fun.Tuple2&lt;K,V&gt;&gt; extractValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun org.mapdb.Fun.Tuple2&lt;A,B&gt; t2(A, B)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun org.mapdb.Fun.Tuple3&lt;A,B,C&gt; t3(A, B, C)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun org.mapdb.Fun.Tuple4&lt;A,B,C,D&gt; t4(A, B, C, D)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.ArrayComparator ArrayComparator(java.util.Comparator[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.ArrayComparator ArrayComparator(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.ArrayComparator ArrayComparator(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.ArrayComparator ArrayComparator(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Function1 R run(A) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Fun.Tuple2 Tuple2(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple2 Tuple2(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple2 Tuple2(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple2Comparator Tuple2Comparator(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple2Comparator Tuple2Comparator(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple2Comparator Tuple2Comparator(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple2Comparator int compare(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple2Comparator int compare(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple2Comparator int compare(org.mapdb.Fun.Tuple2, org.mapdb.Fun.Tuple2) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple2Comparator int compare(org.mapdb.Fun.Tuple2, org.mapdb.Fun.Tuple2) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple3 Tuple3(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple3 Tuple3(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple3 Tuple3(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple3Comparator Tuple3Comparator(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple3Comparator Tuple3Comparator(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple3Comparator Tuple3Comparator(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple3Comparator int compare(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple3Comparator int compare(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple3Comparator int compare(org.mapdb.Fun.Tuple3, org.mapdb.Fun.Tuple3) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple3Comparator int compare(org.mapdb.Fun.Tuple3, org.mapdb.Fun.Tuple3) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple4 Tuple4(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple4 Tuple4(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple4 Tuple4(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple4Comparator Tuple4Comparator(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple4Comparator Tuple4Comparator(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple4Comparator Tuple4Comparator(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple4Comparator int compare(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple4Comparator int compare(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple4Comparator int compare(org.mapdb.Fun.Tuple4, org.mapdb.Fun.Tuple4) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Fun.Tuple4Comparator int compare(org.mapdb.Fun.Tuple4, org.mapdb.Fun.Tuple4) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap DIR_SERIALIZER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap HTreeMap(org.mapdb.Engine, long, int, long[], org.mapdb.Serializer&lt;K&gt;, org.mapdb.Serializer&lt;V&gt;, long, long, long, long, long[], long[], org.mapdb.Fun.Function1&lt;V,K&gt;, org.mapdb.Hasher) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap HTreeMap(org.mapdb.Engine, long, int, long[], org.mapdb.Serializer&lt;K&gt;, org.mapdb.Serializer&lt;V&gt;, long, long, long, long, long[], long[], org.mapdb.Fun.Function1&lt;V,K&gt;, org.mapdb.Hasher) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap HTreeMap(org.mapdb.Engine, long, int, long[], org.mapdb.Serializer&lt;K&gt;, org.mapdb.Serializer&lt;V&gt;, long, long, long, long, long[], long[], org.mapdb.Fun.Function1&lt;V,K&gt;, org.mapdb.Hasher) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap LN_SERIALIZER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap V put(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap V put(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap V putIfAbsent(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap V putIfAbsent(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap V remove(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.Nullable'/>
+    </item>
+    <item name='org.mapdb.HTreeMap V replace(K, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap V replace(K, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap boolean replace(K, V, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap boolean replace(K, V, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap boolean replace(K, V, V) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap engine'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap hasher'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap java.util.Collection&lt;V&gt; values()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap java.util.Map&lt;K,V&gt; snapshot()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap java.util.Set&lt;K&gt; keySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap keySerializer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap long[] preallocateSegments(org.mapdb.Engine)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap modListenersLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap org.mapdb.HTreeMap.ExpireLinkNode expireLinkRemove(int, long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap segmentLocks'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap.ExpireLinkNode SERIALIZER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap.ExpireLinkNode org.mapdb.HTreeMap.ExpireLinkNode copyNext(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap.ExpireLinkNode org.mapdb.HTreeMap.ExpireLinkNode copyPrev(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap.ExpireLinkNode org.mapdb.HTreeMap.ExpireLinkNode copyTime(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap.KeySet boolean add(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.HTreeMap.KeySet java.util.Iterator&lt;K&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Hasher BASIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Hasher BYTE_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Hasher CHAR_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Hasher DOUBLE_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Hasher INT_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Hasher LONG_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Hasher boolean equals(K, K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Hasher int hashCode(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.LongConcurrentHashMap V put(long, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentHashMap V putIfAbsent(long, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentHashMap V replace(long, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentHashMap boolean containsValue(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentHashMap boolean replace(long, V, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentHashMap boolean replace(long, V, V) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentHashMap java.util.Iterator&lt;V&gt; valuesIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentHashMap org.mapdb.LongMap.LongMapIterator&lt;V&gt; longMapIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentLRUMap V put(long, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.LongConcurrentLRUMap accessCounter'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentLRUMap evictionCounter'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentLRUMap java.util.Iterator&lt;V&gt; valuesIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentLRUMap map'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentLRUMap markAndSweepLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentLRUMap missCounter'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentLRUMap org.mapdb.LongMap&lt;org.mapdb.LongConcurrentLRUMap.CacheEntry&lt;V&gt;&gt; getMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentLRUMap org.mapdb.LongMap.LongMapIterator&lt;V&gt; longMapIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentLRUMap putCounter'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongConcurrentLRUMap size'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongHashMap V put(long, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.LongHashMap java.util.Iterator&lt;V&gt; valuesIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongHashMap org.mapdb.LongMap.LongMapIterator&lt;V&gt; longMapIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.LongMap V put(long, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.LongMap java.util.Iterator&lt;V&gt; valuesIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.LongMap org.mapdb.LongMap.LongMapIterator&lt;V&gt; longMapIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Pump java.util.Iterator&lt;E&gt; merge(java.util.Iterator...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Pump java.util.Iterator&lt;E&gt; sort(java.util.Comparator, boolean, java.util.Iterator...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Pump java.util.Iterator&lt;E&gt; sort(java.util.Iterator&lt;E&gt;, boolean, int, java.util.Comparator, org.mapdb.Serializer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Pump java.util.Iterator&lt;E&gt; sort(java.util.Iterator&lt;E&gt;, boolean, int, java.util.Comparator, org.mapdb.Serializer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Pump long buildTreeMap(java.util.Iterator&lt;E&gt;, org.mapdb.Engine, org.mapdb.Fun.Function1&lt;K,E&gt;, org.mapdb.Fun.Function1&lt;V,E&gt;, boolean, int, boolean, long, org.mapdb.BTreeKeySerializer&lt;K&gt;, org.mapdb.Serializer&lt;V&gt;, java.util.Comparator) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Pump long buildTreeMap(java.util.Iterator&lt;E&gt;, org.mapdb.Engine, org.mapdb.Fun.Function1&lt;K,E&gt;, org.mapdb.Fun.Function1&lt;V,E&gt;, boolean, int, boolean, long, org.mapdb.BTreeKeySerializer&lt;K&gt;, org.mapdb.Serializer&lt;V&gt;, java.util.Comparator) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Queues.CircularQueue headInsert'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Queues.CircularQueue lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Queues.Queue tail'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Queues.SimpleQueue E element()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Queues.SimpleQueue E remove()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Queues.SimpleQueue E take()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Queues.SimpleQueue head'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Queues.SimpleQueue nodeSerializer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Queues.SimpleQueue.Node EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Queues.SimpleQueue.NodeSerializer java.lang.Object deserialize(java.io.DataInput, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Queues.SimpleQueue.NodeSerializer java.lang.Object deserialize(java.io.DataInput, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Queues.SimpleQueue.NodeSerializer org.mapdb.Queues.SimpleQueue.Node&lt;E&gt; deserialize(java.io.DataInput, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Queues.SimpleQueue.NodeSerializer void serialize(java.io.DataOutput, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Queues.SimpleQueue.NodeSerializer void serialize(java.io.DataOutput, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Serializer A deserialize(java.io.DataInput, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Serializer BASIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer BOOLEAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer BYTE_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer BYTE_ARRAY_NOSIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer CHAR_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer DOUBLE_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer ILLEGAL_ACCESS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer INTEGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer INT_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer JAVA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer LONG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer LONG_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer STRING_ASCII'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer STRING_INTERN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer STRING_NOSIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer UUID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer void serialize(java.io.DataOutput, A) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Serializer void serialize(java.io.DataOutput, A) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Serializer.CompressionWrapper CompressionWrapper(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer.CompressionWrapper CompressionWrapper(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer.CompressionWrapper CompressionWrapper(org.mapdb.SerializerBase, java.io.DataInput, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer.CompressionWrapper E deserialize(java.io.DataInput, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer.CompressionWrapper LZF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer.CompressionWrapper void serialize(java.io.DataOutput, E) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Serializer.CompressionWrapper void serialize(java.io.DataOutput, E) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.SerializerBase EMPTY_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerBase boolean[] readBooleanArray(int, java.io.DataInput)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerBase boolean[] readBooleanArray(int, java.io.DataInput) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerBase byte[] booleanToByteArray(boolean[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerBase byte[] booleanToByteArray(boolean[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerBase java.lang.Class deserializeClass(java.io.DataInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerBase java.lang.Object deserialize(java.io.DataInput, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.SerializerBase java.lang.Object deserialize(java.io.DataInput, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerBase java.lang.Object deserializeMapDB(java.io.DataInput, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerBase java.lang.Object deserializeMapDB(java.io.DataInput, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerBase java.lang.Object deserializeUnknownHeader(java.io.DataInput, int, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.SerializerBase java.lang.Object deserializeUnknownHeader(java.io.DataInput, int, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.SerializerBase void serialize(java.io.DataOutput, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.SerializerBase void serialize(java.io.DataOutput, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.SerializerBase void serializeClass(java.io.DataOutput, java.lang.Class) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerBase void serializeClass(java.io.DataOutput, java.lang.Class) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerBase void serializeUnknownObject(java.io.DataOutput, java.lang.Object, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.SerializerPojo java.io.ObjectStreamField[] getFields(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo java.lang.Object deserializeUnknownHeader(java.io.DataInput, int, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo java.lang.Object deserializeUnknownHeader(java.io.DataInput, int, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo java.lang.Object getFieldValue(org.mapdb.SerializerPojo.FieldInfo, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo serializer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo void save(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo void serializeUnknownObject(java.io.DataOutput, java.lang.Object, org.mapdb.SerializerBase.FastArrayList&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo void setFieldValue(org.mapdb.SerializerPojo.FieldInfo, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo.ClassInfo ClassInfo(java.lang.String, org.mapdb.SerializerPojo.FieldInfo[], boolean, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo.ClassInfo fields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo.ClassInfo int addFieldInfo(org.mapdb.SerializerPojo.FieldInfo) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo.ClassInfo name2fieldId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo.ClassInfo name2fieldInfo'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo.FieldInfo FieldInfo(java.io.ObjectStreamField, java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo.FieldInfo FieldInfo(java.io.ObjectStreamField, java.lang.Class&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo.FieldInfo FieldInfo(java.lang.String, boolean, java.lang.String, java.lang.Class&lt;?&gt;) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo.FieldInfo clazz'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo.ObjectInputStream2 java.lang.Class&lt;?&gt; resolveClass(java.io.ObjectStreamClass) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.SerializerPojo.ObjectOutputStream2 void writeClassDescriptor(java.io.ObjectStreamClass) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Store A deserialize(org.mapdb.Serializer&lt;A&gt;, int, org.mapdb.DataInput2) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Store A deserialize(org.mapdb.Serializer&lt;A&gt;, int, org.mapdb.DataInput2) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Store locks'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Store newRecidLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Store org.mapdb.DataOutput2 newDataOut2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Store org.mapdb.DataOutput2 serialize(A, org.mapdb.Serializer&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Store org.mapdb.DataOutput2 serialize(A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Store org.mapdb.Store forDB(org.mapdb.DB) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Store recycledDataOuts'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Store structuralLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreDirect DATA_FILE_EXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreDirect StoreDirect(org.mapdb.Volume.Factory) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreDirect StoreDirect(org.mapdb.Volume.Factory, boolean, boolean, int, boolean, long, boolean, boolean, byte[], boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreDirect boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.StoreDirect void preallocate(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreDirect void put2(org.mapdb.DataOutput2, long, long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreDirect void put2(org.mapdb.DataOutput2, long, long[]) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreDirect void update2(org.mapdb.DataOutput2, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreHeap NULL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreHeap TOMBSTONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreHeap boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.StoreHeap freeRecids'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreHeap maxRecid'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreHeap records'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreHeap rollback'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreHeap void preallocate(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL PREALLOC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL StoreWAL(org.mapdb.Volume.Factory) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL StoreWAL(org.mapdb.Volume.Factory, boolean, boolean, int, boolean, long, boolean, boolean, byte[], boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL TOMBSTONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL TRANS_LOG_FILE_EXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.StoreWAL byte[] longStackGetPage(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL indexVals'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL indexValsModified'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL logChecksum'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL long longStackGetSixLong(byte[], int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL longStackPages'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL long[] logAllocate(long[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL long[] logAllocate(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL modified'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL void longStackPutSixLong(byte[], int, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL void preallocate(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL void walPhysArray(org.mapdb.DataOutput2, long[], long[]) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.StoreWAL volFac'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxEngine TOMBSTONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxEngine TxEngine(org.mapdb.Engine, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxEngine boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.TxEngine commitLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxEngine locks'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxEngine org.mapdb.Engine createSnapshotFor(org.mapdb.Engine)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxEngine org.mapdb.Engine createSnapshotFor(org.mapdb.Engine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxEngine org.mapdb.Engine snapshot()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxEngine void preallocate(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxEngine.Tx Tx(org.mapdb.TxEngine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxEngine.Tx boolean compareAndSwap(long, A, A, org.mapdb.Serializer&lt;A&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.TxEngine.Tx ref'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxEngine.Tx void preallocate(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxMaker A execute(org.mapdb.Fun.Function1&lt;A,org.mapdb.DB&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxMaker DELETED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxMaker TxMaker(org.mapdb.TxEngine) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxMaker org.mapdb.DB makeTx()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.TxMaker void execute(org.mapdb.TxBlock) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Volume org.mapdb.DataInput2 getDataInput(long, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Volume org.mapdb.Volume volumeForFile(java.io.File, boolean, boolean, long, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Volume org.mapdb.Volume.Factory fileFactory(boolean, int, java.io.File, long, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Volume org.mapdb.Volume.Factory fileFactory(boolean, int, java.io.File, long, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Volume org.mapdb.Volume.Factory fileFactory(boolean, int, long, boolean, java.io.File, java.io.File, java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Volume org.mapdb.Volume.Factory memoryFactory(boolean, long, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Volume void putData(long, java.nio.ByteBuffer) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Volume.ByteBufferVol growLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Volume.ByteBufferVol java.nio.ByteBuffer makeNewBuffer(long, java.nio.ByteBuffer[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Volume.ByteBufferVol org.mapdb.DataInput2 getDataInput(long, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Volume.ByteBufferVol void putData(long, java.nio.ByteBuffer) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Volume.Factory org.mapdb.Volume createIndexVolume()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Volume.Factory org.mapdb.Volume createPhysVolume()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Volume.FileChannelVol org.mapdb.DataInput2 getDataInput(long, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Volume.FileChannelVol void putData(long, java.nio.ByteBuffer) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Volume.FileChannelVol void readFully(long, java.nio.ByteBuffer) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Volume.FileChannelVol void writeFully(long, java.nio.ByteBuffer) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Volume.MappedFileVol java.nio.ByteBuffer makeNewBuffer(long, java.nio.ByteBuffer[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.mapdb.Volume.MappedFileVol raf'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.mapdb.Volume.MemoryVol java.nio.ByteBuffer makeNewBuffer(long, java.nio.ByteBuffer[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>
